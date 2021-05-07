@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+button {
+  background-color: #337ab7;
+  color: white;
+  margin-left: 10px;
+}
+
+table {
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+table,
+tr,
+td {
+  border: 1px gray solid;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
