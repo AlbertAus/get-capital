@@ -1,3 +1,6 @@
+// This file contains all the actions for the Todo list;
+// This file also contains VisibilityFilters defines;
+
 let nextTodoId = 0;
 
 export const addTodo = text => ({
