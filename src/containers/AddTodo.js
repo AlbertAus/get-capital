@@ -21,13 +21,6 @@ const AddTodo = ({ dispatch }) => {
         <input ref={(node) => (input = node)} />
         <button type="submit">Add Todo</button>
       </form>
-      <h3>
-        1. Click the first column to toggle Todo to Completed/Active. (Completed is marked with
-        line through)
-        <br />
-        2. Click the "Delete" icon to delete the Todo. (marked with line through
-        and red color)
-      </h3>
     </div>
   );
 };
